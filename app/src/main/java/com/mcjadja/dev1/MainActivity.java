@@ -26,6 +26,6 @@ public class MainActivity extends Activity {
         TextView tv2 = (TextView) findViewById(R.id.Choice_2);
         tv2.setText("Wandering path");
         TextView tv3 = (TextView) findViewById(R.id.welcomebutton);
-        tv2.setText("");
+        tv3.setText("");
     }
 }
