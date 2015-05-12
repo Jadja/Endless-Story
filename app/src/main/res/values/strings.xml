@@ -6,8 +6,15 @@
     <string name="next">Next</string>
     <string name="cancel">Cancel</string>
 
-    <string name="loading_page">Loading Page...</string>
-    <string name="loading_choice1">Loading choice 1...</string>
-    <string name="loading_choice2">Loading choice 2...</string>
+    <string name="P_T1">Youre waking up after a long night. When you try to remember what happened the day before, you dont remember anything. In fact, you remember nothing. Nothing but the fact that your name is </string>
+    <string name="P_C1">Get out of bed</string>
+    <string name="P_C2">Stay in bed</string>
 
+    <string name="P1_T1">test answer 2</string>
+    <string name="P1_C1">test answer 2</string>
+    <string name="P1_C2">test answer 2</string>
+
+    <string name="P0_T1">test answer 1</string>
+    <string name="P0_C1">test answer 1</string>
+    <string name="P0_C2">test answer 1</string>
 </resources>
