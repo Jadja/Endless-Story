@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Dev1</string>
+    <string name="app_name">Endless Story</string>
 
-    <string name="hello_world"> </string>
-    <string name="hello_world_button">start</string>
-    <string name="action_settings">Settings</string>
-    <string name="button">Settings</string>
-    <string name="option_1">Follow path</string>
-    <string name="option_2">Sink in ship</string>
+    <string name="action_settings">settings</string>
+    <string name="namerequest">What is your name?</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="loading_page">Loading Page...</string>
+    <string name="loading_choice1">Loading choice 1...</string>
+    <string name="loading_choice2">Loading choice 2...</string>
+
 </resources>

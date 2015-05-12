@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/namerequest"
+        android:id="@+id/textView"
+        android:layout_above="@+id/username"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/nextbutton"
+        android:layout_centerHorizontal="true"
+        android:maxLength="12" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="@string/cancel"
+        android:id="@+id/cancelbutton"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="94dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="@string/next"
+        android:id="@+id/nextbutton"
+        android:layout_alignTop="@+id/cancelbutton"
+        android:layout_toRightOf="@+id/cancelbutton"
+        android:layout_toEndOf="@+id/cancelbutton" />
+
+</RelativeLayout>

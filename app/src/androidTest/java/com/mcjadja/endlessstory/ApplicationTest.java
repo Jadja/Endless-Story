@@ -1,4 +1,4 @@
-package com.mcjadja.dev1;
+package com.mcjadja.endlessstory;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
