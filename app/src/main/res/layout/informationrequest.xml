@@ -27,7 +27,8 @@
         android:text="@string/cancel"
         android:id="@+id/cancelbutton"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="94dp" />
+        android:layout_marginLeft="94dp"
+        android:onClick="doMenu"/>
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="100dp"
@@ -36,6 +37,7 @@
         android:id="@+id/nextbutton"
         android:layout_alignTop="@+id/cancelbutton"
         android:layout_toRightOf="@+id/cancelbutton"
-        android:layout_toEndOf="@+id/cancelbutton" />
+        android:layout_toEndOf="@+id/cancelbutton"
+        android:onClick="startPath"/>/>
 
 </RelativeLayout>

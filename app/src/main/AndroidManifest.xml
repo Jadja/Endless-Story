@@ -7,6 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
+        android:configChanges="orientation"
         android:screenOrientation="portrait">
         <activity
             android:name=".MainActivity"
@@ -19,9 +20,11 @@
         </activity>
         <activity
             android:name=".pathPage"
+            android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
             android:name=".informationRequest"
+            android:configChanges="orientation"
             android:screenOrientation="portrait" />
     </application>
 
