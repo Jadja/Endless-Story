@@ -9,6 +9,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.net.Uri;
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
 
 
 public class MainActivity extends Activity {
@@ -25,5 +31,13 @@ public class MainActivity extends Activity {
         Intent nextScreen = new Intent(getApplicationContext(), informationRequest.class);
 
         startActivity(nextScreen);
+    }
+    public void doCommunity (View view) {
+        goToUrl("http://www.reddit.com/r/EndlessStory/");
+    }
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 }
