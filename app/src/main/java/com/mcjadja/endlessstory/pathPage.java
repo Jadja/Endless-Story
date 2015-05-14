@@ -12,7 +12,8 @@ import android.widget.TextView;
  */
 public class pathPage extends Activity {
 
-    String path = "P";
+    String path = "P_";
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,7 @@ public class pathPage extends Activity {
         setContentView(R.layout.pathpage);
         Intent i = getIntent();
         i.getStringExtra("name");
-        String name = i.getStringExtra("name");
+        name = i.getStringExtra("name");
     }
 
     public void Choose1(View V) {
@@ -29,7 +30,7 @@ public class pathPage extends Activity {
         String Option1 = "getResources().getString(R.string." + path + "_C1)";
         String Option2 = "getResources().getString(R.string." + path + "_C2)";
         TextView tv = (TextView) findViewById(R.id.Text);
-        tv.setText(Text);
+        tv.setText("Hello, " + name + ". You chose option 1");
         TextView tv1 = (TextView) findViewById(R.id.button1);
         tv1.setText(Option1);
         TextView tv2 = (TextView) findViewById(R.id.button2);
@@ -42,7 +43,7 @@ public class pathPage extends Activity {
         String Option1 = "getResources().getString(R.string." + path + "_C1)";
         String Option2 = "getResources().getString(R.string." + path + "_C2)";
         TextView tv = (TextView) findViewById(R.id.Text);
-        tv.setText(Text);
+        tv.setText("Hello, " + name + ". You chose option 2");
         TextView tv1 = (TextView) findViewById(R.id.button1);
         tv1.setText(Option1);
         TextView tv2 = (TextView) findViewById(R.id.button2);

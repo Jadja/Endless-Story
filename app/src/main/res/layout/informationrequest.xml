@@ -18,26 +18,18 @@
         android:layout_height="50dp"
         android:layout_above="@+id/nextbutton"
         android:layout_centerHorizontal="true"
-        android:maxLength="12" />
+        android:maxLength="12"
+        android:inputType="textPersonName" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:text="@string/cancel"
-        android:id="@+id/cancelbutton"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="94dp"
-        android:onClick="doMenu"/>
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:text="@string/next"
         android:id="@+id/nextbutton"
-        android:layout_alignTop="@+id/cancelbutton"
-        android:layout_toRightOf="@+id/cancelbutton"
-        android:layout_toEndOf="@+id/cancelbutton"
-        android:onClick="startPath"/>/>
+        android:onClick="startPath"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp" />/>
 
 </RelativeLayout>
