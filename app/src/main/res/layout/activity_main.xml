@@ -27,6 +27,7 @@
         android:layout_marginBottom="190dp" />
 
     <Button
+        android:onClick="doSavedStories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SAVED STORIES"
@@ -36,10 +37,11 @@
         android:layout_marginTop="50dp" />
 
     <Button
+        android:onClick="doOptions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OPTIONS"
-        android:id="@+id/button3"
+        android:id="@+id/optionsbutton"
         android:layout_below="@+id/options_button"
         android:layout_centerHorizontal="true" />
 
@@ -49,6 +51,6 @@
         android:layout_height="wrap_content"
         android:text="COMMUNITY"
         android:id="@+id/button4"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/optionsbutton"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

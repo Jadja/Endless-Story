@@ -1,13 +1,19 @@
 package com.mcjadja.endlessstory;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.net.Uri;
 import android.app.Activity;
@@ -32,6 +38,15 @@ public class MainActivity extends Activity {
 
         startActivity(nextScreen);
     }
+
+    public void doOptions(View v) {
+        //Starting a new Intent
+        Intent nextScreen = new Intent(getApplicationContext(), popupWindow.class);
+
+        startActivity(nextScreen);
+    }
+
+
     public void doCommunity (View view) {
         goToUrl("http://www.reddit.com/r/EndlessStory/");
     }
