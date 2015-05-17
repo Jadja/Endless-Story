@@ -6,15 +6,5 @@
     <string name="next">Next</string>
     <string name="cancel">Cancel</string>
 
-    <string name="PT1_">Test page 0</string>
-    <string name="PC1_">Test page 0 C1</string>
-    <string name="PC2_">Test page 0 C2</string>
-
-    <string name="PT1_1">test answer 2</string>
-    <string name="P1C1_1">test answer 2</string>
-    <string name="P1C2_1">test answer 2</string>
-
-    <string name="PT1_0">test answer 1</string>
-    <string name="PC1_0">test answer 1</string>
-    <string name="PC2_0">test answer 1</string>
+    <string name="loading">Loading...</string>
 </resources>

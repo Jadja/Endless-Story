@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/PT1_"
+        android:text="@string/loading"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="58dp"
         android:layout_alignParentTop="true"
@@ -21,7 +21,7 @@
     <Button
         android:layout_width="175dp"
         android:layout_height="75dp"
-        android:text="@string/PC1_"
+        android:text="@string/loading"
         android:id="@+id/button1"
         android:layout_marginBottom="44dp"
         android:layout_marginLeft="10dp"
@@ -34,7 +34,7 @@
     <Button
         android:layout_width="175dp"
         android:layout_height="75dp"
-        android:text="@string/PC2_"
+        android:text="@string/loading"
         android:id="@+id/button2"
         android:layout_marginLeft="200dp"
         android:layout_marginStart="200dp"
