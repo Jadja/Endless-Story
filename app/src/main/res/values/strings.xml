@@ -7,4 +7,46 @@
     <string name="cancel">Cancel</string>
 
     <string name="loading">Loading...</string>
+
+    <string name="P__T">Welcome, totally unidentified and unknown person. Ahead of you lies your story, neither of us know what it will be, where you will go, who you might meet... The story is yours, and only you will know what will be. In front of you you see an intersection, 2 roads, going left and right. Even though this might seem like a small insignificant choice to you, it is in fact, this biggest, most important choice you will ever make in this lifetime.</string>
+    <string name="P__C1">Turn left</string>
+    <string name="P__C2">Turn right</string>
+
+        <string name="P_0_T">You turned left, ahead of you see a long plain dirt road, only the occasional trees next to the road stand out in the endless wastelands you see everywhere around you. You\'re getting thirsty, the road doesn\'t seem to end, do you go back? Or do you hope for a miracle and keep going...</string>
+        <string name="P_0_C1">Turn back</string>
+        <string name="P_0_C2">Keep going</string>
+
+            <string name="P_00_T">You\'re back at the intersection, you can now go forward and right, right being the road you magically came from. To the right you see nothing more than you saw on te path you were on just now, plain wasteland as far as the eye can see. But at the same time, the road to the right also feels kind of mysterious... As if going there would go against the story, as if it would create not only the strangest storyline, but also the most worked out, and perfected storyline... The path in front of you, going straight ahead, seems boring, at the horizon you can see a slight change in color, different from every other direction, which makes you curious as to what might be out there to explore... The choice is yours.</string>
+            <string name="P_00_C1">Keep going straight</string>
+            <string name="P_00_C2">Turn right</string>
+
+                //bla
+
+                <string name="P_001_T">filler</string>
+                <string name="P_001_C1">filler</string>
+                <string name="P_001_C2">filler</string>
+
+            <string name="P_01_T">filler</string>
+            <string name="P_01_C1">filler</string>
+            <string name="P_01_C2">filler</string>
+
+                <string name="P_010_T">filler</string>
+                <string name="P_010_C1">filler</string>
+                <string name="P_010_C2">filler</string>
+
+                <string name="P_011_T">filler</string>
+                <string name="P_011_C1">filler</string>
+                <string name="P_011_C2">filler</string>
+
+        <string name="P_1_T">You turned right, in the far distance you can see a border between the wasteland you\'re currently in and what looks like a greenish blueish land, a lake, or the start of a sea? You\'re getting thirsty and going back to the intersection you started at would only result in more drought. You see a clean, open path, and a dirty path that is partially covered in dust, both leading to the water, choose your path.</string>
+        <string name="P_1_C1">Clean path</string>
+        <string name="P_1_C2">Dirty path</string>
+
+            <string name="P_10_T">filler</string>
+            <string name="P_10_C1">filler</string>
+            <string name="P_10_C2">filler</string>
+
+            <string name="P_11_T">filler</string>
+            <string name="P_11_C1">filler</string>
+            <string name="P_11_C2">filler</string>
 </resources>
