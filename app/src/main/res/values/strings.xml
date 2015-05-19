@@ -20,23 +20,57 @@
             <string name="P_00_C1">Keep going straight</string>
             <string name="P_00_C2">Turn right</string>
 
-                //bla
+                //
+                //goes to P_1
+                //
 
-                <string name="P_001_T">filler</string>
-                <string name="P_001_C1">filler</string>
-                <string name="P_001_C2">filler</string>
+                <string name="P_001_T">As you move towards the strange nothingness that also kind of looks like a something, you feel fear, but also bravery. It feels like walking got easier, but also harder... Almost as if nothing changed at all... The cold silence is creeping you out and you take out your phone to play some music. Choose a song.</string>
+                <string name="P_001_C1">Dick in a box</string>
+                <string name="P_001_C2">Eat it</string>
 
-            <string name="P_01_T">filler</string>
-            <string name="P_01_C1">filler</string>
-            <string name="P_01_C2">filler</string>
+                    <string name="P_0010_T">The path keeps going and going... Cacti start to appear in the landscape around you, your stomach rumbles and as you look at the cacti... they seem so tasty, filled with water just waiting there for you to cut them open...</string>
+                    <string name="P_0010_C1">Cut open a cactus</string>
+                    <string name="P_0010_C2">keep walking</string>
 
-                <string name="P_010_T">filler</string>
-                <string name="P_010_C1">filler</string>
-                <string name="P_010_C2">filler</string>
+                        <string name="P_00100_T">filler</string>
+                        <string name="P_00100_C1">filler</string>
+                        <string name="P_00100_C2">filler</string>
 
-                <string name="P_011_T">filler</string>
-                <string name="P_011_C1">filler</string>
-                <string name="P_011_C2">filler</string>
+                        <string name="P_00101_T">filler</string>
+                        <string name="P_00101_C1">filler</string>
+                        <string name="P_00101_C2">filler</string>
+
+                    //
+                    //goes to P_0010
+                    //
+
+            <string name="P_01_T">You\'ve been walking for what seems like hours... It\'s getting dark when at the horizon you finally see something. A small light, which, as you get closer, get\'s bigger and bigger, brighter and brighter... You are so tired you\'re not sure if you will be able to make it to the light if you keep going now. Next to the path there is a tree where you could lay down and spend the night.</string>
+            <string name="P_01_C1">Keep going</string>
+            <string name="P_01_C2">Lay down</string>
+
+                <string name="P_010_T">The light becomes bigger... You can spot a wall of some sort, surrounding the light. It\'s a city! As you get closer you can see the shape of buildings rising above the walls from behind them, but even this close to a city of this size, there seems to be nobody outside the walls, all you can find is dust, outside the great gate where the path meets the wall. Out of strength, you fall down in front of the gate, your eyes close and you hear nothing. No reaction, just silence.</string>
+                <string name="P_010_C1">Sleep</string>
+                <string name="P_010_C2">Sleep</string>
+
+                    <string name="P_0100_T">filler</string>
+                    <string name="P_0100_C1">filler</string>
+                    <string name="P_0100_C2">filler</string>
+
+                    <string name="P_0101_T">filler</string>
+                    <string name="P_0101_C1">filler</string>
+                    <string name="P_0101_C2">filler</string>
+
+                <string name="P_011_T">You wake up to the sound of people, and a cart, rolling by. When you open your eyes you can see them no far away from you, traveling towards the light. Your strength is low, and you really don\'t feel like walking there all the way yourself. You can either ask the people if you can sit in their cart, or try to sneak in without them spotting you.</string>
+                <string name="P_011_C1">Ask people</string>
+                <string name="P_011_C2">Sneak in</string>
+
+                    <string name="P_0110_T">filler</string>
+                    <string name="P_0110_C1">filler</string>
+                    <string name="P_0110_C2">filler</string>
+
+                    <string name="P_0111_T">filler</string>
+                    <string name="P_0111_C1">filler</string>
+                    <string name="P_0111_C2">filler</string>
 
         <string name="P_1_T">You turned right, in the far distance you can see a border between the wasteland you\'re currently in and what looks like a greenish blueish land, a lake, or the start of a sea? You\'re getting thirsty and going back to the intersection you started at would only result in more drought. You see a clean, open path, and a dirty path that is partially covered in dust, both leading to the water, choose your path.</string>
         <string name="P_1_C1">Clean path</string>

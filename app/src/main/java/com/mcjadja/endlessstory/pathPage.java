@@ -48,6 +48,16 @@ public class pathPage extends Activity {
             path = "P_1";
         }
 
+        if (path.equals("P_0010"))   {
+            //play "dick in a box" music
+            path = "P_0010";
+        }
+
+        if (path.equals("P_0011"))   {
+            //play "eat it" music
+            path = "P_0010";
+        }
+
         if(path == "P_111")    {
             Restart(V);
         }
